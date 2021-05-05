@@ -1,7 +1,7 @@
 import React, { useState, useEffect, Fragment } from "react";
 import styles from "./Header.module.scss";
 import Layout from "../../layouts/Layout/Layout";
-import { Button, Link, Logo } from "../../elements";
+import { Link, Logo } from "../../elements";
 import THEME from "../../../state/theme";
 import { useCustomState } from "../../../state/state";
 
@@ -9,9 +9,9 @@ export default ({ data = [] }) => {
   const [sticky, setSticky] = useState(false);
   const actions = useCustomState()[1];
 
-  const handleResize = () => {
-    setSticky(window.pageYOffset > 200 ? true : false);
-  };
+  // const handleResize = () => {
+  //   setSticky(window.pageYOffset > 200 ? true : false);
+  // };
 
   // useEffect(() => {
   //   window.addEventListener("scroll", handleResize);
@@ -56,29 +56,8 @@ export default ({ data = [] }) => {
           <Logo />
         </Link>
 
-        <ul className={styles.menu}>{menu}</ul>
 
-        {/* <div className={styles.btn_desktop}>
-          <Button
-            after="&#xf107;"
-            type="outline-white-tw"
-            hoverType="solid-white-tb"
-            click={() => actions.toogleModal()}
-          >
-            Contact Us
-          </Button>
-        </div> */}
 
-        <div
-          className={styles.btn_mobile}
-          onClick={() => actions.toogleSidebar()}
-        >
-          <Button
-            after="&#xf0c9;"
-            type="solid-white-tb"
-            hoverType="solid-gray-tb"
-          />
-        </div>
       </div>
     </Layout>
   );
@@ -86,14 +65,14 @@ export default ({ data = [] }) => {
   return (
     <Fragment>
       <div className={styles.wrapper}>{header}</div>
-      <div
+      {/* <div
         className={[
           styles.wrapper,
           sticky ? styles.sticky : styles.hidden,
         ].join(" ")}
       >
         {header}
-      </div>
+      </div> */}
     </Fragment>
   );
 };

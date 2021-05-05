@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import Slider from "react-slick";
 import styles from "./Slider.module.scss";
 import Layout from "../../layouts/Layout/Layout";
-import { Button } from "../../elements";
 
 export default ({ data = [] }) => {
   let sliderRef = useRef(null);

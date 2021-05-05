@@ -1,10 +1,8 @@
 import React from "react";
 import styles from "./Plasma.module.scss";
 import Layout from "../../layouts/Layout/Layout";
-import { Button } from "../../elements";
 import THEME from "../../../state/theme";
 import { useCustomState } from "../../../state/state";
-import { Link } from "react-router-dom";
 
 export default ({ data = [] }) => {
   const actions = useCustomState()[1];

@@ -1,8 +1,7 @@
 import React, { Fragment } from "react";
 import styles from "./Box.module.scss";
 import Layout from "../../layouts/Layout/Layout";
-import { ContactForm } from "../../ui";
-import { AddressBox, Button } from "../../elements";
+import { AddressBox } from "../../elements";
 import { Link } from 'react-router-dom';
 import THEME from "../../../state/theme";
 import { useCustomState } from "../../../state/state";

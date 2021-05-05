@@ -36,7 +36,7 @@ export default () => {
             <Logo dark />
           </Link>
           <p>
-            Copyright All right reserved.
+            All right reserved.
           </p>
           {/* <div className={styles.social}>
             <i className="lab la-linkedin-in" />

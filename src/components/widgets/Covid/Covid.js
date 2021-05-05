@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Covid.module.scss";
 import Layout from "../../layouts/Layout/Layout";
-import { CardButton } from "../../ui";
 import THEME from "../../../state/theme";
 
 export default ({ data = [] }) => {
