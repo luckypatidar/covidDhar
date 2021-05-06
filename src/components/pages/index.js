@@ -4,6 +4,7 @@ import Plasma from './Plasma/Plasma';
 import Drug from './Drug/Drug';
 import Hospital from './Hospital/Hospital';
 import Covid from './Covid/Covid';
+import Error404 from './404Page/404Page';
 
 export {
   Home,
@@ -11,5 +12,6 @@ export {
   Plasma,
   Drug,
   Hospital,
-  Covid
+  Covid,
+  Error404
 };

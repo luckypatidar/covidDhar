@@ -8,6 +8,7 @@ import {
   Drug,
   Hospital,
   Covid,
+  Error404
 } from "./components/pages";
 import { Footer } from "./components/layouts";
 import { Spinner } from "./components/elements";
@@ -33,6 +34,7 @@ export default () => {
           <Route path="/drug" exact component={Drug} />
           <Route path="/hospital" exact component={Hospital} />
           <Route path="/covid" exact component={Covid} />
+          <Route component={Error404} />
         </Switch>
         <Footer />
       </Fragment>

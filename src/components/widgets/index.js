@@ -8,6 +8,7 @@ import Plasma from './Plasma/Plasma';
 import Covid from './Covid/Covid';
 import Facts from './Facts/Facts';
 import CovidInformation from './CovidInformation/CovidInformation';
+import Error404 from './404page/404page';
 
 export {
   Box,
@@ -19,5 +20,6 @@ export {
   Plasma,
   Covid,
   Facts,
-  CovidInformation
+  CovidInformation,
+  Error404
 };
