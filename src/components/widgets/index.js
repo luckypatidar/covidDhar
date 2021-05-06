@@ -1,4 +1,3 @@
-
 import Box from "./Box/Box";
 import Slider from "./Slider/Slider";
 import Header from "./Header/Header";
@@ -7,6 +6,8 @@ import Hospital from './Hospital/Hospital';
 import Oxygen from './Oxygen/Oxygen';
 import Plasma from './Plasma/Plasma';
 import Covid from './Covid/Covid';
+import Facts from './Facts/Facts';
+import CovidInformation from './CovidInformation/CovidInformation';
 
 export {
   Box,
@@ -16,5 +17,7 @@ export {
   Hospital,
   Oxygen,
   Plasma,
-  Covid
+  Covid,
+  Facts,
+  CovidInformation
 };

@@ -9,7 +9,7 @@ export default ({ data = [] }) => {
     const [confirmed, setconfirmed] = useState("0");
     const [recoverd, setrecoverd] = useState("0");
     const [deceased, setdeceased] = useState("0");
-    const [lastDay, setlastDay] = useState(confirmed);
+    const [lastDay, setlastDay] = useState("0");
 
 
     const apiCall = async () => {
@@ -17,7 +17,7 @@ export default ({ data = [] }) => {
         const response = await fetch(url);
         const dataJSON = await response.json();
         const dharData = dataJSON["Madhya Pradesh"].districtData.Dhar;
-        console.log(dharData.active);
+        // console.log(dharData.active);
         setlastDay(confirmed);
         setactive(dharData.active);
         setconfirmed(dharData.confirmed);
@@ -44,7 +44,7 @@ export default ({ data = [] }) => {
                 style={{ borderColor: THEME.color, background: 'rgb(60, 60, 75)' }}
             >
                 {/* <i className={item.icon} /> */}
-                <h3 style={{ color: THEME.color }}>Active Cases</h3>
+                <h3 style={{ color: THEME.color }}>Active</h3>
                 <h4 style={{ color: "white", fontSize: "3rem" }}>{active}</h4>
             </div>
             <div
@@ -52,7 +52,7 @@ export default ({ data = [] }) => {
                 style={{ borderColor: THEME.color, background: 'rgb(60, 60, 75)' }}
             >
                 {/* <i className={item.icon} /> */}
-                <h3 style={{ color: THEME.color }}>Confirmed Cases</h3>
+                <h3 style={{ color: THEME.color }}>Confirmed</h3>
                 <h4 style={{ color: "white", fontSize: "3rem" }}>{confirmed}</h4>
             </div>
             <div
@@ -60,7 +60,7 @@ export default ({ data = [] }) => {
                 style={{ borderColor: THEME.color, width: '4rem', background: 'rgb(60, 60, 75)' }}
             >
                 {/* <i className={item.icon} /> */}
-                <h3 style={{ color: THEME.color }}>Recoverd Cases</h3>
+                <h3 style={{ color: THEME.color }}>Recoverd</h3>
                 <h4 style={{ color: "white", fontSize: "3rem" }}>{recoverd}</h4>
             </div>
             <div
@@ -68,7 +68,7 @@ export default ({ data = [] }) => {
                 style={{ borderColor: THEME.color, width: '4rem', background: 'rgb(60, 60, 75)' }}
             >
                 {/* <i className={item.icon} /> */}
-                <h3 style={{ color: THEME.color }}>Deceased Cases</h3>
+                <h3 style={{ color: THEME.color }}>Deceased</h3>
                 <h4 style={{ color: "white", fontSize: "3rem" }}>{deceased}</h4>
             </div>
             <div
@@ -76,7 +76,7 @@ export default ({ data = [] }) => {
                 style={{ borderColor: THEME.color, width: '4rem', background: 'rgb(60, 60, 75)' }}
             >
                 {/* <i className={item.icon} /> */}
-                <h3 style={{ color: THEME.color }}>New Cases</h3>
+                <h3 style={{ color: THEME.color }}>New</h3>
                 <h4 style={{ color: "white", fontSize: "3rem" }}>{confirmed - lastDay}</h4>
             </div>
         </Layout>

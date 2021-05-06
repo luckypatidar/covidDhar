@@ -12,7 +12,7 @@ export default () => {
   return (
     <Fragment>
       <div className={styles.header}>
-        <h2>Feel free to contact us.</h2>
+        <h2>For More Information</h2>
       </div>
       <Layout col="6" style={{ marginBottom: '8rem', borderBottomColor: THEME.color, width: '100%' }}>
 
