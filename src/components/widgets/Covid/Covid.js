@@ -71,14 +71,14 @@ export default ({ data = [] }) => {
                 <h3 style={{ color: THEME.color }}>Deceased</h3>
                 <h4 style={{ color: "white", fontSize: "3rem" }}>{deceased}</h4>
             </div>
-            <div
+            {/* <div
                 className={styles.card}
                 style={{ borderColor: THEME.color, width: '4rem', background: 'rgb(60, 60, 75)' }}
             >
-                {/* <i className={item.icon} /> */}
+                 <i className={item.icon} /> 
                 <h3 style={{ color: THEME.color }}>New</h3>
                 <h4 style={{ color: "white", fontSize: "3rem" }}>{confirmed - lastDay}</h4>
-            </div>
+            </div> */}
         </Layout>
     );
 };
