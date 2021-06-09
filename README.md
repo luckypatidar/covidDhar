@@ -10,8 +10,12 @@ This project is created in intention to help the people of Dhar District of Madh
 This website had all the information of related to covid-19. Here I connect the donor and beneficiary of the covid-19 Plasma.
 
 <h1>Some Images</h1>
-<img src="https://drive.google.com/uc?export=view&id=10b-y7nldVGQYftLfjbZpXut2NE9ZEfMh"  />
-<img src="https://drive.google.com/uc?export=view&id=1rpJQlzRrDhS3zSg-rCmEsPYMLIAd_jag"  />
-<img src="https://drive.google.com/uc?export=view&id=1XZCS4ruldarF8euVzQbGBOiuSEW85AHk"  />
-<img src="https://drive.google.com/uc?export=view&id=11YQGBb6WWHgdYKO04oMpAnOTGHOuibsJ"  />
+</br>
+![Image](https://drive.google.com/uc?export=view&id=10b-y7nldVGQYftLfjbZpXut2NE9ZEfMh)
+</br>
+![Image](https://drive.google.com/uc?export=view&id=1rpJQlzRrDhS3zSg-rCmEsPYMLIAd_jag)
+</br>
+![Image](https://drive.google.com/uc?export=view&id=1XZCS4ruldarF8euVzQbGBOiuSEW85AHk)
+</br>
+![Image](https://drive.google.com/uc?export=view&id=11YQGBb6WWHgdYKO04oMpAnOTGHOuibsJ)
 
