@@ -12,7 +12,7 @@ Website: - https://coviddhar.herokuapp.com/
 
 <h1>Some Images</h1>
 </br>
-<img src="https://drive.google.com/uc?export=view&id=10b-y7nldVGQYftLfjbZpXut2NE9ZEfMh)" />
+![Images](https://drive.google.com/uc?export=view&id=10b-y7nldVGQYftLfjbZpXut2NE9ZEfMh)
 </br>
 ![Image](https://drive.google.com/uc?export=view&id=1rpJQlzRrDhS3zSg-rCmEsPYMLIAd_jag)
 </br>
